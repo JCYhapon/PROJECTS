@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+:root{
+    --main-color:#e38528
+}
+
+.main{
+    text-align: center;
+    margin: 150px 0px -200px 350px;
+    text-transform: uppercase;
+    color: #383e3f;
+    font-size: 40px;
+}
+
+.achievements .row-2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    padding-bottom: 2rem;
+}
+
+.achievements .row-2 .content{
+    text-align: center;
+    justify-content: center;
+    flex:500%;
+    padding:2rem 5;
+    gap:1.5rem;
+    padding: 5rem ;
+    margin: 0px 0px 0px 0px;
+}
+
+.content .info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    padding-left: 50rem;
+    flex-flow: column;
+    margin: -530px 0px -500px -400px;
+    color: red;
+    text-align: justify;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px;
+}
+
+.image img{
+    max-width: 100%;
+    display: flex;
+    margin: 250px 0px 0px -50px;
+}
+
+.div2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    padding-left: 50rem;
+    flex-flow: column;
+    margin: -530px 0px 0px 100px;
+    color: red;
+    text-align: justify;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px;
+}
+
+.acadyear{
+    margin: -15px 0px 0px 0px;
+}
+
+.acadyear2{
+    margin: -15px 0px 0px 0px;
+}
+
+.blue{
+    color: blue;
+}
+
+.yellow{
+    color: brown;
+}

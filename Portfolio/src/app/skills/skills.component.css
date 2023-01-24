@@ -1,0 +1,45 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin:20px 100px 20px 20px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    transition: width 2s, height 2s;
+}
+
+.card:hover{
+    color: rgb(255, 255, 255);
+    background-color:rgb(110, 108, 108);
+    width: 400x;
+    height: 500px;
+}
+
+.skills{
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: rgb(226, 79, 42);
+    margin: 0px 150px 130px 0px;
+}
+
+.content{
+    margin: 50px 0px 0px 0px;
+}
+
+.css{
+    text-align: justify;
+    margin: -460px -200px 0px 430px;
+}
+
+.html{
+    text-align: justify;
+    margin: 50px 0px 0px 0px;
+}
+
+.javascript{
+    text-align: center;
+    margin: -508px 300px 50px 860px;
+    padding-top: 50px;
+}
+

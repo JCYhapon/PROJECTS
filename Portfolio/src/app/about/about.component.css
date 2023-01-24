@@ -1,0 +1,112 @@
+
+
+.image img{
+    width: 450px;
+    height: auto;
+    margin: -450px 0px 0px 800px; 
+}
+
+.content{
+    margin: 180px 0px 0px -30px;
+}
+
+.content .hi{
+    font-size: 23px;
+    color: #e38528;
+    margin: -20px 0px 500px 0px;
+}
+
+.content h3{
+    font-size: 25px;
+    color:#111;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 0px 0px 20px 0px;
+    
+}
+
+.content span{
+    text-transform: uppercase;
+}
+
+.content .info{
+    font-size: 30px;
+    color:#111;
+    margin: -20px 0px 15px 0px;
+}
+
+.content .text{
+    font-size: 20px;
+    color:#666;
+    padding:.5rem 0;
+    text-align: justify;
+    margin: 0px 700px 0px 0px;
+}
+
+.content2{
+    margin: 20px 0px 0px -30px;
+}
+.age{
+    font-size: 20px;
+    color: grey;
+    text-transform: capitalize;
+}
+
+.gender{
+    font-size: 20px;
+    color: grey;
+    text-transform: capitalize;
+}
+
+.language{
+    font-size: 20px;
+    color: grey;
+    text-transform: capitalize;
+}
+
+.program{
+    font-size: 20px;
+    color: grey;
+    text-transform: capitalize;
+}
+
+.content3{
+    margin: -200px 0px 0px 500px;
+}
+.freelance{
+    font-size: 20px;
+    color: grey;
+    text-transform: capitalize;
+}
+
+.phone{
+    font-size: 20px;
+    color: grey;
+    text-transform: capitalize;
+}
+
+.email{
+    font-size: 20px;
+    color: grey;
+    text-transform: capitalize;
+}
+
+.country{
+    font-size: 20px;
+    color: grey;
+    text-transform: capitalize;
+}
+
+.cv{
+    margin: 15px 0px 0px -530px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    width: 150px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 0px 0px 0px 20px;
+    background-color: #111;
+}
+
+button{
+    margin: 10px 0px 0px -480px;
+}

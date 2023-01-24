@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Achievements</title>
+
+  <!--CDN BOOTSTRAP-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <!--MY CUSTOM CSS-->
+  <link rel="stylesheet" type="text/css" href="achievements.component.css">
+</head>
+
+<body>
+ 
+  <!--ACHIVEMENTS SECTION ENDS-->
+<section class="achievements">
+  
+  <h1 class="main">Honors, <span style="color: rgb(240, 117, 2);">Awards,</span>  and <span style="color: rgb(240, 117, 2);">Accomplishments</span> </h1>
+
+  <div class="row-2">
+    <div class="image">
+      <img src="assets/images/achievements-img.jpg">
+    </div> 
+
+    <div class="content">
+      <div class="box-container">
+    <div class="box">
+      <p class="info"> <br>  Deans List for 1st Semester <span style="color: rgb(240, 117, 2);"> Academic Year 2021-2022 April 29, 2022</span> 
+        <br> Deans List for 2nd Semester  <span style="color: rgb(240, 117, 2);"> Academic Year 2020-2021October 30, 2021 </span> 
+        <br> Deans List for 1st Semester  <span style="color: rgb(240, 117, 2);"> Academic Year 2020-2021 May 28, 2021 </span> 
+        <br> High School Diploma for  <span style="color: rgb(240, 117, 2);">Academic Year 2018-2020 April 15, 2020 </span> 
+        <br> Certification of Completion for   <span style="color: rgb(240, 117, 2);">Academic Year 2014-2018  April 3, 2018</span> 
+
+        <div class="div2">
+        <br> Rank 1 in Class   <span style="color: rgb(240, 117, 2);">September 03, 2016 September 03, 2016</span> 
+        <br> Rank 1 in Class <span style="color: rgb(240, 117, 2);">April 29, 2016</span> 
+        <br> Model Pupil <span style="color: rgb(240, 117, 2);"> March 25, 2014 </span> 
+        <br> Primary Diploma for  <span style="color: rgb(240, 117, 2);"> Academic Year 2008-2014  April 22, 2014</span> 
+        
+        <!--STYLE BINDING-->
+        <p [style.color]="myColor">Style Binding</p>   
+        <p class="acadyear" [style.color]="myColor2">Academic Year 2022 - 2023</p>   
+       
+        <!--CLASS BINDING-->
+        <p [class]="appliedCSSClass3">Class Binding</p>
+        <p class="acadyear2" [class.yellow]="appliedCSSClass4">Academic Year 2022 - 2023</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+  
+
+</section>
+  <!--ACHIEVEMENTS SECTION ENDS-->
+</body>
+</html>

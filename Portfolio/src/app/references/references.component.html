@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>References</title>
+
+  <!--CDN BOOTSTRAP-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <!--MY CUSTOM CSS-->
+  <link rel="stylesheet" type="text/css" href="references.component.css">
+</head>
+
+<body>
+<div class="box">
+  <h1 class="reference">Personal <span style="color: rgb(165, 99, 23);">Reference</span> </h1 >
+  <hr class="line">
+
+  <div class="content">
+  <h3 class="name">Irish Joyce Perez - Chief Executive Officer</h3>
+  <p><span style="color: rgb(165, 99, 23); font-weight: bold;" >Contact:</span> 0917-317-6934 <span style="color: rgb(165, 99, 23); font-weight: bold;">Email:</span> irishjoyce@gmail.com <span style="color: rgb(165, 99, 23); font-weight: bold;">Location:</span> Davao City, Philippines.</p>
+  <br>
+
+  <h3 class="name">Jennifer Darica - Assisstant</h3>
+  <p><span style="color: rgb(165, 99, 23); font-weight: bold;">Contact:</span> 0915-236-4914 <span style="color: rgb(165, 99, 23); font-weight: bold;">Email:</span> jendarica@gmail.com <span style="color: rgb(165, 99, 23); font-weight: bold;">Location:</span> Davao City, Philippines.</p>
+
+  <!--PROPERTY BINDING-->
+  <input class="refname" type="text" [value]="referenceName">
+  <br>
+  <input class="contact" type="text" [value]="contact">
+
+</div>
+</div>
+
+</body>
+</html>

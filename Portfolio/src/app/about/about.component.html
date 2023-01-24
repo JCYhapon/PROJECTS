@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>About</title>
+
+  <!--CDN BOOTSTRAP-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css%22%3Ea">
+
+  <!--MY CUSTOM CSS-->
+  <link rel="stylesheet" type="text/css" href="about.component.css">
+</head>
+
+<body>
+<section class="home" id="home">
+
+  <div class="content">
+      <span class="hi"> {{intro}} </span> <!--INTERPOLATION-->
+      <h3> i am <span style="color: #e38528;"> {{myName}} </span> </h3> <!--INTERPOLATION-->
+      <p class="info"> I'm 3rd Year College | BSIT in Web Development </p>
+      <p class="text"> I am a student at Holy Angel University studying Web Development. I am excited to share my portfolio with you, showcasing the skills and projects I have developed during my studies. 
+
+        In my Web Development coursework, I have gained experience in Python, Java, PHP, HTML/CSS, MySQL, MongoDB. Additionally, I have completed several projects that demonstrate my ability to debug, run, fix errors, import data. 
+
+        I am eager to apply my skills and experience to a real-world setting and am confident that my portfolio will demonstrate my potential as a valuable asset to your team. 
+
+        Thank you for considering my portfolio. I look forward to the opportunity to discuss how my skills and experience align with the needs of your company. </p>
+  </div>
+  <div class="image">
+    <img src="assets/images/home.jpg">
+  </div>
+  <div class="content2">
+      <p class="age" ><span style="color: #e38528;">Age:</span> 22</p>
+      <p class="gender"><span style="color: #e38528;">Gender:</span> Male</p>
+      <p class="language"><span style="color: #e38528;">Languege:</span> Filipino, English</p>
+      <p class="program"><span style="color: #e38528;">Program:</span> BSIT Major In Web Development</p>
+  </div>
+
+  <div class="content3">
+    <p class="freelance" ><span style="color: #e38528;">Freelance:</span> Available</p>
+    <p class="phone"><span style="color: #e38528;">Phone #:</span> 0998-939-7465</p>
+    <p class="email"><span style="color: #e38528;">Email:</span> yhaponjc@gmail.com</p>
+    <p class="country"><span style="color: #e38528;">Country:</span> Philippines</p>
+
+    <p class="cv">COVER LETTER</p>
+    <button (click)="showData($event)">Download</button>
+</div>
+
+
+
+
+</section>
+
+<!-- HOME SECTION ENDS -->
+<div class="page-content">      <router-outlet></router-outlet> </div>
+</body>
+</html>

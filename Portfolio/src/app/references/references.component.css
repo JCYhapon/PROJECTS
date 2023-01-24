@@ -1,0 +1,44 @@
+.box{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 200px 100px 20px 270px;
+    width: 800px;
+    height: 500px;
+    text-align: justify;
+    display: inline-block;
+    cursor: pointer;
+    transition: width 2s, height 2s;
+    background-color: rgb(255, 255, 255);
+}
+
+.reference{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    background-color: black;
+}
+
+.line{
+    color: aqua;
+}
+
+.content{
+    font-size: 15px;
+    margin: 50px 0px 0px 20px;
+}
+
+.name{
+    margin: 0px 0px -10px 0px;
+}
+
+input{
+    margin: 10px 0px 0px 0px;
+    padding: 5px 0px 5px 0px;
+}
+
+.contact{
+    margin: 20px 0px 0px 0px;
+}
+
+.refname{
+    margin: 30px 0px 0px 0px;
+}
